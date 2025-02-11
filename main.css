@@ -1,0 +1,34 @@
+/* Estilos personalizados para o formulário */
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 28rem;
+}
+
+/* Estilo para o título do formulário */
+.form-container h1 {
+    color: #1a365d;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para os inputs */
+.form-container input {
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-container input:focus {
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Estilo para o botão */
+.form-container button {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.form-container button:hover {
+    background-color: #2b6cb0;
+}
